@@ -1,13 +1,13 @@
 cask "whatsapp-zen" do
-  version "0.3.0"
-  sha256 "f87a0decc565afb373bd471bd60dd52a0f69acc360d0a82b5ef6030a3abb4673"
+  version "0.3.1"
+  sha256 "4c2cb6d1d2da02591977f949640dbde4a5181a0e1590b874f71aa85584f9b66b"
 
   url "https://github.com/mdenizay/whatsapp-zen/releases/download/v#{version}/WhatsApp-Zen-#{version}.zip"
   name "WhatsApp Zen"
   desc "Unofficial lightweight native WhatsApp client"
   homepage "https://github.com/mdenizay/whatsapp-zen"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "WhatsApp Zen.app"
