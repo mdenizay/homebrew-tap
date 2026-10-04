@@ -1,6 +1,6 @@
 cask "whatsapp-zen" do
-  version "0.6.2"
-  sha256 "902443b7a53a99e84072666321d10f2e6b8b7c8eca23f527a086f6c2c24d2acb"
+  version "0.6.3"
+  sha256 "c98607a9dfd07bf1477dba1ff1b4bcebf7e1c3f01d0efadaaf8402220edd0f89"
 
   url "https://github.com/mdenizay/whatsapp-zen/releases/download/v#{version}/WhatsApp-Zen-#{version}.zip"
   name "WhatsApp Zen"
