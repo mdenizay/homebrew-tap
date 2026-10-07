@@ -1,6 +1,6 @@
 cask "whatsapp-zen" do
-  version "1.0.4"
-  sha256 "b744fe1a0be119b92ebab7544bf451f6463cbf394264fc9ed71303e81b785105"
+  version "1.0.5"
+  sha256 "d01be2b31bd13d2b03308ace76c0a8088fbf54ef2497fa52296cd67ce31310c3"
 
   url "https://github.com/mdenizay/whatsapp-zen/releases/download/v#{version}/WhatsApp-Zen-#{version}.zip"
   name "WhatsApp Zen"
@@ -9,7 +9,6 @@ cask "whatsapp-zen" do
 
   auto_updates true
   depends_on macos: :tahoe
-  depends_on arch: :arm64
 
   app "WhatsApp Zen.app"
 
