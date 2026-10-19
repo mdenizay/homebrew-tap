@@ -1,6 +1,6 @@
 cask "nerd" do
-  version "0.8.0"
-  sha256 "68247a099b244b9eaa91ebf2062f1d79e8da73e74ed07393d1827648222f4b04"
+  version "0.9.0"
+  sha256 "30842041b5a88e8770c1623a311ef3799eb2853e39cde76313e77f6db0428737"
 
   url "https://github.com/mdenizay/nerd/releases/download/v#{version}/Nerd-#{version}.zip"
   name "Nerd"
