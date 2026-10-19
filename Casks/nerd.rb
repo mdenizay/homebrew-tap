@@ -1,12 +1,13 @@
 cask "nerd" do
-  version "0.1.0"
-  sha256 "3c6b16e2cd21ca72d4a92e4a906a29120e02edf3c4e50f5cbb624e597b15876b"
+  version "0.2.0"
+  sha256 "bd9e8d6e62513f28dee7ed96e77c2885a91e495f1d29b22b977969b5d9878654"
 
   url "https://github.com/mdenizay/nerd/releases/download/v#{version}/Nerd-#{version}.zip"
   name "Nerd"
   desc "Local development environment for PHP, Laravel, Next.js and Astro"
   homepage "https://github.com/mdenizay/nerd"
 
+  auto_updates true
   depends_on macos: :sequoia
   depends_on formula: "caddy"
 
