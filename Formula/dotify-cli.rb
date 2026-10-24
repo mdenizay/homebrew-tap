@@ -1,8 +1,8 @@
 class DotifyCli < Formula
   desc "Headless Dotify project editing and PNG export"
   homepage "https://github.com/mdenizay/dotify"
-  url "https://github.com/mdenizay/dotify/releases/download/v0.1.0/dotify-cli-0.1.0-macos-arm64.tar.gz"
-  sha256 "c0f14a99faa1c6e3fbd6439c72691be4313fb2bf536f108c86ac3460c7508a00"
+  url "https://github.com/mdenizay/dotify/releases/download/v0.1.1/dotify-cli-0.1.1-macos-arm64.tar.gz"
+  sha256 "b7ba9a93e9c059348909855b0c7386dfbfc69a1752739b897cabbd08b70ee15e"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64

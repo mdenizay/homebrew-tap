@@ -1,6 +1,6 @@
 cask "dotify" do
-  version "0.1.0"
-  sha256 "c32b03437fb65ff05018810c5b3244d31ee3505f946d86588e640b7d0f34daa8"
+  version "0.1.1"
+  sha256 "27054027d20d2ae260bd9cc7bf181335c9b3372e83781c01d6ed8d3ee7c20e9a"
 
   url "https://github.com/mdenizay/dotify/releases/download/v#{version}/Dotify-#{version}.zip"
   name "Dotify"
