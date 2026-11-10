@@ -1,6 +1,6 @@
 cask "kasandra" do
-  version "1.1.0"
-  sha256 "701597c2992ea646b5d08380b669d7dbf731540be6f8f3ce0c2a31f52b90fd3e"
+  version "1.2.0"
+  sha256 "8d73603db285d4181b90cb5e259c6a0a521241e1fe7d119144815e027979e34e"
 
   url "https://github.com/mdenizay/kasandra/releases/download/v#{version}/Kasandra_#{version}_universal.dmg"
   name "Kasandra"
